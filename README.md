@@ -14,7 +14,8 @@ sc2 = PySC2(game_api_key, token=my_user_token)
 
 # Examples
 
-userLadder = sc2.get_matches(3767888, 'Lazerhawk')
+matches = sc2.get_matches(3767888, 'Lazerhawk')
+profile = sc2.get_profile(3767888, 'Lazerhawk')
 sc2_rewards = sc2.get_rewards()
 sc2_achievements =  sc2.get_achievements
 
